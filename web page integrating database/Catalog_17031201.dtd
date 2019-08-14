@@ -1,0 +1,35 @@
+<!ELEMENT Company (logo, Name, Descriptions, Departments, Projects, Comp_Staffs, Comp_Info)>
+<!ELEMENT logo (#PCDATA) >
+<!ELEMENT Name (#PCDATA) >
+
+<!ELEMENT Descriptions (Description1, Description2) >
+<!ELEMENT Description1 (#PCDATA) >
+<!ELEMENT Description2 (#PCDATA) >
+<!ELEMENT Departments (Department+) >
+<!ELEMENT Department (Dept_Name, Detail_Dept) >
+<!ATTLIST Department Dept_ID CDATA #REQUIRED Dept_ID CDATA #IMPLIED>
+<!ELEMENT Dept_Name (#PCDATA)>
+<!ELEMENT Detail_Dept (#PCDATA)>
+<!ELEMENT Projects (Project+)>
+<!ELEMENT Project (Proj_Name, Details)>
+<!ATTLIST Project Category CDATA #REQUIRED>
+<!ELEMENT Proj_Name (#PCDATA)>
+<!ELEMENT Details (#PCDATA)>
+<!ELEMENT Comp_Staffs (Staff+)>
+<!ELEMENT Staff (Title, Staff_Name, Staff_Email, Staff_Phone, Post, staff_department+)>
+<!ATTLIST Staff Staff_ID CDATA #REQUIRED Staff_ID CDATA #IMPLIED>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Staff_Name (#PCDATA)>
+<!ELEMENT Staff_Email (#PCDATA)>
+<!ELEMENT Staff_Phone (#PCDATA)>
+<!ELEMENT Post (#PCDATA)>
+<!ELEMENT staff_department (#PCDATA)>
+<!ELEMENT Comp_Info (Address, Contacts, Feadback)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Contacts (Mobile, Tel, Fax)>
+<!ELEMENT Mobile (#PCDATA)>
+<!ELEMENT Tel (#PCDATA)>
+<!ELEMENT Fax (#PCDATA)>
+<!ELEMENT Feadback (Email, Web)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT Web (#PCDATA)>

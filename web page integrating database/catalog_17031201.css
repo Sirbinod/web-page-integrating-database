@@ -1,0 +1,214 @@
+Company{
+    background-image: url("./lol.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 100%; 
+    
+}
+logo{
+    background-image: url("./logo.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 70vh;
+}
+Name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    margin-left: 42%;
+    margin-top: 8%;
+    font-size: 60px;
+    display: block;
+    justify-content: center;
+    color: rgb(241, 101, 7);
+}
+Description1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(237, 236, 243);;
+    margin-top: 1%;
+    display: block;
+    font-size: 35px;
+    text-align: right;
+    margin-left: 18%;
+
+}
+Description2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-top: 3%;
+    display: block;
+    font-size: 24px;
+    color: rgb(29, 2, 54);
+}
+Description2:after{
+    display: inline-flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(27, 7, 7);
+    content: "Department"
+}
+Departments{
+    contain: "Departments";
+    background-color: rgb(2, 40, 71);
+    display: flex;
+    position: relative;
+}
+
+Department{
+    display: block;
+    margin: 20px;
+    box-shadow: 0 6px 6px black;
+    background-color: rgb(246, 248, 252);
+    padding: 10px;
+    width: 35%;
+    height:auto;
+    
+}
+Dept_Name{
+    font-size: 30px;
+    color: rgb(4, 51, 43);
+    display: block;
+    font-style: inherit;
+    margin-top: 5%;
+}
+Department Detail_Dept{
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    transition: height 1s ease;
+    width: 30%;
+}
+Department:hover > Detail_Dept{
+    display: block;
+    height: auto;
+    background-color: rgb(246, 248, 252);
+}
+
+Projects{
+    background-color: rgb(2, 40, 71);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+Projects::after{
+    content: "Project";
+    order: -1;
+    width: 100%;
+    display: inline-flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(27, 7, 7);
+    font-weight: bold;
+    font-size: 25px;
+}
+Project Details{
+    font-size: 20px;
+    display: block;
+}
+Project{
+    display: block;
+    margin: 20px;
+    box-shadow: 0 6px 6px black;
+    background-color: rgb(246, 248, 252);
+    padding: 10px;
+    width: 25%;
+    height:auto;
+}
+Proj_Name{
+    font-size: 30px;
+    color: rgb(4, 51, 43);
+    display: block;
+    font-style: inherit;
+    margin-top: 5%;   
+}
+Comp_Staffs{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(2, 40, 71);
+    border-bottom: solid black 4px;
+}
+Comp_Staffs::after{
+    content: "Staff";
+    order: -1;
+    width: 100%;
+    display: inline-flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(27, 7, 7);
+    font-weight: bold;
+    font-size: 25px;
+}
+Staff{
+    display: list-item;
+    list-style: decimal;
+    font: 20px;
+    margin: 20px;
+    background-color: rgb(246, 248, 252);
+    padding: 10px;
+    width: 25%;
+    height: 100px;
+    height: auto;
+}
+Title::before{
+    content: "Name: "
+}
+Staff_Email::before{
+    content: "Email: "
+}
+Staff_Phone::before{
+    content: "Phone: "
+}
+Post::before{
+    content: "Post: "
+}
+staff_department::before{
+    content: "Department: "
+}
+Title, Staff_Name, Staff_Email, Staff_Phone, Post, staff_department{
+    display: block;
+    font-size: 20px;
+
+}
+Comp_Info{
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(2, 40, 71);
+}
+Address::before{
+    content: "Address: "
+}
+Address, Contacts, Feadback{
+    text-align: center;
+    display: block;
+    color: white;
+}
+Mobile::before{
+    content: "Mobile: "
+}
+Tel::before{
+    content: "Tel: "
+}
+Fax::before{
+    content: "Fax: "
+}
+Email::before{
+    content: "Email: "
+}    
+Web::before{
+    content: "Web: "
+}
+
+

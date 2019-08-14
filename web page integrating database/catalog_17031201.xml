@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Company>
+  <logo/>
+  <Name>ASGARD Technology</Name>
+  <Descriptions>
+    <Description1>World class digital platform for your organization.</Description1>
+    <Description2>Take a look at few of our several projects that have successfully grown. We put our heart and soul into every project that we undertake and measure our efforts by the results we drive for our clients.</Description2>
+  </Descriptions>
+  <Departments>
+    <Department Dept_ID="D1">
+      <Dept_Name>Software Application</Dept_Name>
+      <Detail_Dept>Our skill in application improvement is transformation and at-standard with cutting edge programming applications. Endow us to configuration, create and improve your product items so you can stay concentrated on your center business.</Detail_Dept>
+    </Department>
+    <Department Dept_ID="D2">
+      <Dept_Name>Mobile Application</Dept_Name>
+      <Detail_Dept>We convey the universe of the web to your Android and Apple, so you are completely prepared for work or play wherever you go.We take a shot at practical versatile application undertakings of all size and make visual, movement and intuitive structure involvement crosswise over stages and gadgets.</Detail_Dept>
+    </Department>
+    <Department Dept_ID="D3">
+      <Dept_Name>Web Application</Dept_Name>
+      <Detail_Dept>We have the web secured. Regardless of whether you need a website to share your thoughts or an intricate web stage with an instinctive data framework to help your business, look no more remote than Asgard advanced arrangements.</Detail_Dept>
+    </Department>
+  </Departments>
+  <Projects>
+    <Project Category="Mobile Apps">
+      <Proj_Name>Touch</Proj_Name>
+      <Details>Touch is the new, simple video calling app that brings you face-to-face with all the people that matter most.</Details>
+    </Project>
+    <Project Category="News Protals">
+      <Proj_Name>Setopati</Proj_Name>
+      <Details>Digital newspaper of Nepal, online destination for Nepal news, views, reviews, features, blogs and audio video content covering Nepali politics, society, market, sport and movie.</Details>
+    </Project>
+    <Project Category="Web Sites">
+      <Proj_Name>Match</Proj_Name>
+      <Details>There was no way we could discuss the best dating web apps without mentioning the granddaddy of them all. Match was at the top of the dating game long before web apps existed, and its experience shows.</Details>
+    </Project>
+  </Projects>
+  <Comp_Staffs>
+    <Staff Staff_ID="S1">
+      <Title>Mr</Title>
+      <Staff_Name>Resham Shrestha</Staff_Name>
+      <Staff_Email>resham01@gmail.com</Staff_Email>
+      <Staff_Phone>986254123</Staff_Phone>
+      <Post>Manager</Post>
+      <staff_department>Software Application</staff_department>
+      <staff_department>Mobile Application</staff_department>
+    </Staff>
+    <Staff Staff_ID="S2">
+      <Title>Mrs</Title>
+      <Staff_Name>Reshu KC</Staff_Name>
+      <Staff_Email>kc02@gmail.com</Staff_Email>
+      <Staff_Phone>986421367</Staff_Phone>
+      <Post>Junior Developer</Post>
+      <staff_department>Mobile Application</staff_department>
+    </Staff>
+    <Staff Staff_ID="S3">
+      <Title>Mr</Title>
+      <Staff_Name>Sanjog Maharjan</Staff_Name>
+      <Staff_Email>sanjog03@gmail.com</Staff_Email>
+      <Staff_Phone>986412364</Staff_Phone>
+      <Post>Sr. Developer</Post>
+      <staff_department>Web Application</staff_department>
+    </Staff>
+    <Staff Staff_ID="S4">
+      <Title>Mr</Title>
+      <Staff_Name>Ushal Ghimire</Staff_Name>
+      <Staff_Email>ushal04@gmail.com</Staff_Email>
+      <Staff_Phone>6164846</Staff_Phone>
+      <Post>Chief Executive</Post>
+    </Staff>
+    <Staff Staff_ID="S5">
+      <Title>Mrs</Title>
+      <Staff_Name>Rosy gurung</Staff_Name>
+      <Staff_Email>rozz@ymail.com</Staff_Email>
+      <Staff_Phone>135677554</Staff_Phone>
+      <Post>Manager</Post>
+      <staff_department>Web Application</staff_department>
+    </Staff>
+    <Staff Staff_ID="S6">
+      <Title>Mr</Title>
+      <Staff_Name>MIlan oandey</Staff_Name>
+      <Staff_Email>oanday@gmail.com</Staff_Email>
+      <Staff_Phone>12648655</Staff_Phone>
+      <Post>Tester</Post>
+      <staff_department>Mobile Application</staff_department>
+    </Staff>
+  </Comp_Staffs>
+  <Comp_Info>
+    <Address>Putalisadak, Kathmandu</Address>
+    <Contacts>
+      <Mobile>986053631</Mobile>
+      <Tel>15689785</Tel>
+      <Fax>CXS567856</Fax>
+    </Contacts>
+    <Feadback>
+      <Email>as99gard@gmail.com</Email>
+      <Web>www.asgard.com</Web>
+    </Feadback>
+  </Comp_Info>
+</Company>
